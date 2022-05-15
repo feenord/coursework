@@ -5,7 +5,7 @@
 # 3. Monitoring tool - "Grafana".
 # 4. Список необходимого ПО для реализации проекта.
 # 5. ссылки на доп матерриалы.
-
+ ![Tux, the Linux mascot](./images/scheme.png)
 
 
 
