@@ -21,7 +21,7 @@
 # 3.1 - Описание - Prometheus собирает метрики по адресу http://51.250.85.217:8000/metrics
 ![Tux, the Linux mascot](./images/image_metrics.png)
 # 3.2 - Grafana - на основе метрик собранных Prometheus выводит информацию на Dashboard's
-Посмотреть можно тут http://51.250.86.240:3000/d/rjj8LS_7z/metrics?orgId=1
+Посмотреть можно тут http://(ваш_ip):3000/d/rjj8LS_7z/metrics?orgId=1
 # Login = admin
 # Password = 265525
 ![Tux, the Linux mascot](./images/image_grafana.png)
@@ -30,32 +30,32 @@
 - Yandex Cloud CLI 0.89.0 linux/amd64
 - pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 - Ubuntu 
-  DISTRIB_ID=Ubuntu
-  DISTRIB_RELEASE=20.04
-  DISTRIB_CODENAME=focal
-  DISTRIB_DESCRIPTION="Ubuntu 20.04.4 LTS"
+  -DISTRIB_ID=Ubuntu
+  -DISTRIB_RELEASE=20.04
+  -DISTRIB_CODENAME=focal
+  -DISTRIB_DESCRIPTION="Ubuntu 20.04.4 LTS"
 - RabbtMQ - 3.8.2
 - MONGODB - 3.6.8
 # 4.3 Для образа web intarface - "Search Engine UI" было использовано:
 - Yandex Cloud CLI 0.89.0 linux/amd64
 - pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 - Ubuntu 
-  DISTRIB_ID=Ubuntu
-  DISTRIB_RELEASE=20.04
-  DISTRIB_CODENAME=focal
-  DISTRIB_DESCRIPTION="Ubuntu 20.04.4 LTS"
+  -DISTRIB_ID=Ubuntu
+  -DISTRIB_RELEASE=20.04
+  -DISTRIB_CODENAME=focal
+  -DISTRIB_DESCRIPTION="Ubuntu 20.04.4 LTS"
 # 4.4 Для образа Мониторинга использовалось:
 - Yandex Cloud CLI 0.89.0 linux/amd64
 - Ubuntu 
-  DISTRIB_ID=Ubuntu
-  DISTRIB_RELEASE=20.04
-  DISTRIB_CODENAME=focal
-  DISTRIB_DESCRIPTION="Ubuntu 20.04.4 LTS"
+  -DISTRIB_ID=Ubuntu
+  -DISTRIB_RELEASE=20.04
+  -DISTRIB_CODENAME=focal
+  -DISTRIB_DESCRIPTION="Ubuntu 20.04.4 LTS"
 - Grafana Version 8.5.2
 - prometheus --version
-  prometheus, version 2.31.0
-  go version:       go1.17.2
-  platform:         linux/amd64
+  -prometheus, version 2.31.0
+  -go version:       go1.17.2
+  -platform:         linux/amd64
 # 4.5 Для разворачивания Образов выше описанных приложений:
 - Yandex Cloud CLI 0.89.0 linux/amd64
 - Terraform v0.13.7
