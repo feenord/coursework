@@ -81,9 +81,9 @@
 Версионирование - реализованно на основе привязки к хешу текущего активного комита в Git репазитории. На основе этого активного хеша ***Packer*** создаёт образ из которого в дальнейшем ***Terraform*** осуществляет deploy Приложения.
 Хеш активного коммита в Гит репазитории можно посмотреть командой ***git rev-parse HEAD***
 Результат вывода:
-![Tux, the Linux mascot](./images/hesh.png)
-![Tux, the Linux mascot](./images/hesh2.png)
-![Tux, the Linux mascot](./images/hesh3.png)
+*![Tux, the Linux mascot](./images/hesh.png)
+*![Tux, the Linux mascot](./images/hesh2.png)
+*![Tux, the Linux mascot](./images/hesh3.png)
 ***Первые 7 символов соответствуют в имени файла образа вот пример***:
 ![Tux, the Linux mascot](./images/iso.png)
 После имени образа идет приписка из 7 символов хеша активного  Git репозитория.
